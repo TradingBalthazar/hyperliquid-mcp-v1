@@ -1,0 +1,37 @@
+{
+  "name": "hyperliquid-mcp-v1",
+  "version": "1.0.0",
+  "description": "Hyperliquid MCP integration for HL Coder",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TradingBalthazar/hyperliquid-mcp-v1.git"
+  },
+  "keywords": [
+    "hyperliquid",
+    "mcp",
+    "trading",
+    "crypto"
+  ],
+  "author": "TradingBalthazar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TradingBalthazar/hyperliquid-mcp-v1/issues"
+  },
+  "homepage": "https://github.com/TradingBalthazar/hyperliquid-mcp-v1#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "open": "^10.1.0",
+    "python-shell": "^5.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
